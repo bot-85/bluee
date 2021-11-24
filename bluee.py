@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-# code by Yayan XD
+# code by Bintang XD
 # my facebook ( https://www.facebook.com/KM39453 )
 
 #      (C) Copyright 407 Authentic Exploit

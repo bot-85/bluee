@@ -5,7 +5,7 @@
 
 #      (C) Copyright 407 Authentic Exploit
 #      Rebuild Copyright Can't make u real programmer:)
-#      Coded By Yayan XD.
+#      Coded By Bintang XD.
 
 import os
 try:
@@ -91,7 +91,7 @@ def tod():
 logo = ''' \033[0;91m   ___           __   __   ____
  \033[0;91m  / _ )  ___    /  |/  /  / __/ © \x1b[1;92m|| BY : Bintang-XD
  \033[0;97m / _  / /___/  / /|_/ /  / _/     \x1b[1;93m|| FB : Bintang Tzy
- \033[0;93m/___ /        /_/  /_/  /_/  \x1b[1;92mv6.5 \033[0m|| YT : BINTANG XD'''
+ \033[0;94m/___ /        /_/  /_/  /_/  \x1b[1;92mv6.5 \033[0m|| YT : BINTANG XD'''
 lo_ngentod = '1714009362122228'
 # crack selesai
 def hasil(ok,cp):

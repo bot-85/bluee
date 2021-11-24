@@ -191,7 +191,7 @@ def moch_yayan():
                 print("%s%s"%(titid,N));time.sleep(0.03)
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
-        except (IOError)
+            print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
             print("\n %s[%s×%s] opshh kamu tidak mendapatkan hasil :("%(N,M,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
     elif pepek in['8','08']:

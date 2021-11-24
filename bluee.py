@@ -101,7 +101,7 @@ def hasil(ok,cp):
         print '\n\n [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
         print ' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
     else:
-        print '\n\n [%s!%s] opshh kamu tidak mendapatkan hasil :('%(M,N);exit()
+        print '\n\n [%s!%s] Kasihan tidak mendapatkan hasil awok²'%(M,N);exit()
 
 #masuk token
 def yayanxd():
@@ -484,15 +484,17 @@ def cek_ingfo(kontol):
 def info_tools():
     os.system('clear')
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    print '\n %s[%s>%s] Yt       : Yayan XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Author   : Moch Yayan Juan Alvredo XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Github   : https://github.com/Yayan-XD'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Facebook : https://www.facebook.com/KM39453'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Fanspage : https://www.facebook.com/Yayanxyz'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Instagram: https://www.instagram.com/yayanxd_'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Website  : https://www.yayanxd.my.id'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s©%s] Yt       : Bintang XD.'%(N,H,N);time.sleep(0.07)
+
+    print '\n %s[%s©%s] Author   : Bintang-XD.'%(N,H,N);time.sleep(0.07)
+
+    print '\n %s[%s©%s] Github   : https://github.com/bot-85'%(N,H,N);time.sleep(0.07)
+
+    print '\n %s[%s©%s] Facebook : https://www.facebook.com/bintangt.zy.92'%(N,H,N);time.sleep(0.07)
+
+    print '\n %s[%s©%s] Fanspage : https://www.facebook.com/100075175236877'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+    raw_input('\n  [ %sENTER%s ] '%(O,N));moch_yayan()
 
 ### ganti user agent
 def seting_yntkts():

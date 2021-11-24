@@ -1,4 +1,4 @@
-## ⭐ AUTHOR BINTANG-XD
+### ⭐ AUTHOR BINTANG-XD
 
 # perintah
 

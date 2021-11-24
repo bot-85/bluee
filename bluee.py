@@ -89,9 +89,9 @@ def tod():
 
 # LO KONTOL
 logo = ''' \033[0;92m __  __        __   __   ____
- \033[0;92m \ \/ / ___   /  |/  /  / __/ © \x1b[1;92m|| BY : Bintang-XD
- \033[0;93m  \  / /___/ / /|_/ /  / _/     \x1b[1;93m|| FB : Bintang Tzy
- \033[0;93m  /_/       /_/  /_/  /_/  \x1b[1;92mv6.5 \033[0m|| YT : BINTANG XD'''
+ \033[0;92m \ \/ / ___   /  |/  / ___   / __/ © \x1b[1;92m|| BY : Bintang-XD
+ \033[0;93m  \  / /___/ / /|_/ / /___/ / _/     \x1b[1;93m|| FB : Bintang Tzy
+ \033[0;93m  /_/       /_/  /_/       /_/  \x1b[1;92mv6.5 \033[0m|| YT : BINTANG XD'''
 lo_ngentod = '1714009362122228'
 # crack selesai
 def hasil(ok,cp):

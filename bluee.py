@@ -603,17 +603,17 @@ class __crack__:
                             hasil(ok,cp)
                         else:
                             print '\n %s[%s×%s] input yang bener'%(N,M,N);__yan__()
-                    print '\n [ pilih method login - silahkan coba satu² ]\n'
-                    print ' [%s1%s]. method API (fast)'%(O,N)
-                    print ' [%s2%s]. method mbasic (slow)'%(O,N)
-                    print ' [%s3%s]. method mobile (super slow)'%(O,N)
+                    print '\n [ pilih method yang anda suka ]\n'
+                    print ' [%s01%s]. method API (fast)'%(O,N)
+                    print ' [%s02%s]. method mbasic (slow)'%(O,N)
+                    print ' [%s03%s]. method mobile (super slow)'%(O,N)
                     __yan__(pwek.split(','))
                     break
         elif ___yayanganteng___ in ('T', 't'):
-            print '\n [ pilih method login - silahkan coba satu² ]\n'
-            print ' [%s1%s]. method API (fast)'%(O,N)
-            print ' [%s2%s]. method mbasic (slow)'%(O,N)
-            print ' [%s3%s]. method mobile (super slow)'%(O,N)
+            print '\n [ pilih method yang anda suka ]\n'
+            print ' [%s01%s]. method API (fast)'%(O,N)
+            print ' [%s02%s]. method mbasic (slow)'%(O,N)
+            print ' [%s03%s]. method mobile (super slow)'%(O,N)
             self.__pler__()
         else:
             print '\n %s[%s×%s] Y/t goblok!'%(N,M,N);self.plerr()

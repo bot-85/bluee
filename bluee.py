@@ -142,6 +142,7 @@ def moch_yayan():
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
+    print(" [•] Bergabung   : %s"%(tgl))
     print ' [\033[0;92m•\033[0m] USER NAME   : %s'%(nama);time.sleep(0.03)
     print ' [\033[0;94m•\033[0m] IP phone    : %s'%(IP)
     print(" [•] Status      : %sPremium%s"%(H,N))

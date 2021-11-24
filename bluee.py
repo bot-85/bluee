@@ -143,7 +143,8 @@ def moch_yayan():
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' (\033[0;92m•\033[0m) USER NAME   : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;94m•\033[0m) IP phone    : %s'%(IP)                    
+    print ' (\033[0;94m•\033[0m) IP phone    : %s'%(IP)
+    print ' (\033[0;92m•\033[0m) Status      : %sPremium Sampai dajjal keluar%s"%(H,N))                    
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s01%s] DUMP ID DARI TEMAN'%(U,P,);time.sleep(0.03)
     print ' [%s02%s] DUMP ID DARI PUBLIK'%(U,P);time.sleep(0.03)

@@ -549,7 +549,7 @@ class __crack__:
             raw_input('\n  %s[ %sENTER%s ]'%(N,O,N));moch_yayan()
         ___yayanganteng___ = raw_input(' [%s?%s] apakah anda ingin menggunakan kata sandi manual? [Y/t]: '%(O,N))
         if ___yayanganteng___ in ('Y', 'y'):
-            print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sayang,Jancok,123,bismillah,anjing,dll. setiap sandi minimal 6 karakter atau lebih'%(N,M,N)
+            print '\n %s[%s!%s] contoh : sayang,Jancok,123,bismillah,anjing,dll. setiap sandi minimal 6 karakter atau lebih'%(N,M,N)
             while True:
                 pwek = raw_input('\n [%s?%s] masukan kata sandi : '%(O,N))
                 print ' [*] crack dengan sandi -> [ %s%s%s ]' % (M, pwek, N)

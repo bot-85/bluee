@@ -12,7 +12,7 @@ cd bluee
 ```
 ### Menjalankan Perintah
 ``` ezz boss!!!
-gi t pull
+git pull
 python2 bluee.py
 ```
 ## Peringatan

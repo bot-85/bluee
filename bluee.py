@@ -112,7 +112,7 @@ def yayanxd():
         print '%s[*.]%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
         print '%s[*.]%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
         print '%s[*.]%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
-        raw_input(' %s[*.]%s Tekan enter om/tante '%(O,N))
+        raw_input('%s[*.]%s Tekan enter om/tante '%(O,N))
         ('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         yayanxd()
     try:

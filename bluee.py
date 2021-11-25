@@ -118,11 +118,11 @@ def yayanxd():
         yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
+        print '\n\n %s[*.]%s selamat kepada %s%s%s'%(O,N,K,nama,N);time.sleep(2)
+        print ' %s[*.]%s Admin tidak Bertanggung jawab atas ada nya masalah...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
-        raw_input(' %s*%s tekan enter '%(O,N));wuhan(kontol)
-        os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+        raw_input(' %s[*.]%s Tekan enter om/tante '%(O,N));wuhan(kontol)
+        ('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         moch_yayan()
     except KeyError:
         print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);yayanxd()
@@ -133,7 +133,7 @@ def moch_yayan():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] sihlahkan masukan Token'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s*.%s] sihlahkan masukan Token'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:

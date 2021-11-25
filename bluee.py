@@ -91,12 +91,12 @@ def tod():
 logo = ''' \033[0;91m   ___          __  __   ___    ____
  \033[0;91m  / _ )  ___   /  |/  / / _ )  / __/ © \x1b[1;92m|| BY : Bintang-XD
  \033[0;97m / _  / /___/ / /|_/ / / _  / / _/     \x1b[1;93m|| FB : Bintang Tzy
- \033[0;94m/___ /       /_/  /_/ /___ / /_/  \x1b[1;92mv6.8 \033[0m|| YT : BINTANG XD'''
+ \033[0;94m/___ /       /_/  /_/ /___ / /_/  \x1b[1;92mv7.0 \033[0m|| YT : BINTANG XD'''
 lo_ngentod = '1714009362122228'
 # crack selesai
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
-        print '\n\n %s[%s#%s] crack selesai...'%(N,K,N)
+        print '\n\n %s[%s*.%s] crack nya sudah selesai ngab...'%(N,K,N)
         print '\n\n [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
         print ' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
     else:
@@ -158,7 +158,7 @@ def moch_yayan():
     print ' [%s00%s] %sREMOVE TOKEN%s'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [-] pilih : ')
     if pepek == '':
-        print '\n %s[%s×%s] jangan kosong!!'%(N,M,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s*.%s] jangan kosong!!'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:

@@ -1,29 +1,29 @@
 ### ⭐ AUTHOR BINTANG-XD
 
-# perintah
+### perintah Tools
+``` bos?
+pkg update && pkg upgrade
 
-$ pkg update && pkg upgrade
+pkg install python2
 
-$ pkg install python2
+pkg install git
 
-$ pkg install git
+git clone https://github.com/bot-85/bluee
 
-$ git clone https://github.com/bot-85/bluee
+pip2 install requests bs4
 
-$ pip2 install requests bs4
+pip2 install futures
 
-$ pip2 install futures
+cd bluee
+```
+### Menjalankan Perintah
+``` ezz boss
+git pull
 
-$ cd bluee
+ls
 
-## Menjalankan Perintah
-
-$ git pull
-
-$ ls
-
-$ python2 bluee.py
-
+python2 bluee.py
+```
 ## Peringatan
 
 Klo mau ngerecode sc ini tidak masalah

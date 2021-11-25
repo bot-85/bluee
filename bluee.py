@@ -88,10 +88,10 @@ def tod():
         time.sleep(1)
 
 # LO KONTOL
-logo = ''' \033[0;96m __  __        __  ______  ____
- \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ® \033[0m|| Created By YayanXD
- \033[0;96m  \  / /___/ / /|_/ / _  / _/     \033[0m|| Github.com/Yayan-XD
- \033[0;96m  /_/       /_/  /_/____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/KM39453'''
+logo = ''' \033[0;94m   ___          __  __   ___    ____
+ \033[0;93m  / _ )  ___   /  |/  / / _ )  / __/ © \x1b[1;95m|| BY : Bintang-XD
+ \033[0;92m / _  / /___/ / /|_/ / / _  / / _/     \x1b[1;96m|| FB : Bintang Tzy
+ \033[0;91m/___ /       /_/  /_/ /___ / /_/  \x1b[1;92mv7.1 \033[0m|| YT : BINTANG XD'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -106,15 +106,15 @@ def hasil(ok,cp):
 #masuk token
 def yayanxd():
     os.system('clear')
-    print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
-    if kontol in ('open', 'Open', 'OPEN'):
-        print '\n%s *%s note! usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
-        print '%s *%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
-        print '%s *%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
-        print '%s *%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
-        raw_input(' %s*%s tekan enter '%(O,N))
-        os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
+    print (' %s[*.]%s Script ini menggunakan token fb.\n %s[*.]%s Apakah anda tau cara mendapatkan token fb?\n %s[*.]%s ketik %sBuka%s untuk mendapatkan token fb.'%(O,N,O,N,O,N,H,N))
+    kontol = raw_input('\n %s[%s?%s] Token Fb? :%s '%(N,M,N,H))
+    if kontol in ('buka', 'Buka', 'BUKA'):
+        print '\n%s[*.]%s note! usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
+        print '%s[*.]%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
+        print '%s[*.]%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
+        print '%s[*.]%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
+        raw_input('%s[*.]%s Tekan enter om/tante '%(O,N))
+        ('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
@@ -133,7 +133,7 @@ def moch_yayan():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] sihlahkan masukan Token'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
@@ -144,22 +144,23 @@ def moch_yayan():
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
+    print ' [\033[0;92m•\033[0m] USER NAME   : %s'%(nama);time.sleep(0.03)
+    print ' [\033[0;94m•\033[0m] IP phone    : %s'%(IP)
+    print(" [•] Status      : %sPremium %s"%(H,N))
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' [%s1%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
-    print ' [%s2%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
-    print ' [%s3%s]. Dump id dari total followers'%(O,N);time.sleep(0.03)
-    print ' [%s4%s]. Dump id dari like postingan'%(O,N);time.sleep(0.03)
-    print ' [%s5%s]. Mulai crack'%(O,N);time.sleep(0.03)
-    print ' [%s6%s]. Check ingformasi akun fb'%(O,N);time.sleep(0.03)
-    print ' [%s7%s]. Lihat hasil crack'%(O,N);time.sleep(0.03)
-    print ' [%s8%s]. Settings user agent'%(O,N);time.sleep(0.03)
-    print ' [%s9%s]. Ingfo %sscript%s'%(O,N,O,N);time.sleep(0.03)
-    print ' [%s0%s]. logout (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
-    pepek = raw_input('\n [*] menu : ')
+    print ' [%s01%s] DUMP ID DARI TEMAN'%(U,P,);time.sleep(0.03)
+    print ' [%s02%s] DUMP ID DARI PUBLIK'%(U,P);time.sleep(0.03)
+    print ' [%s03%s] DUMP ID DARI TOTAL FOLLOWRS'%(U,P);time.sleep(0.03)
+    print ' [%s04%s] DUMP ID DARI LIKE POSTINGAN'%(U,P);time.sleep(0.03)
+    print ' [%s05%s] %sSTART CRACK %s'%(U,P,H,P);time.sleep(0.03)
+    print ' [%s06%s] CHECK INFO ACCOUNT FB'%(U,P);time.sleep(0.03)
+    print ' [%s07%s] CHECK HASIL CRACK'%(U,P);time.sleep(0.03)
+    print ' [%s08%s] GANTI USER AGENT'%(U,P);time.sleep(0.03)
+    print ' [%s09%s] %sINFO SCRIPT%s'%(U,P,O,N);time.sleep(0.03)
+    print ' [%s00%s] %sREMOVE TOKEN%s'%(M,N,M,N);time.sleep(0.03)
+    pepek = raw_input('\n [-] pilih : ')
     if pepek == '':
-        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] jangan kosong'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:

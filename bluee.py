@@ -521,7 +521,7 @@ def yo_ndak_tau_ko_tanya_saia():
     if _asu_ == '':
         print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
     elif _asu_ in['Y','y']:
-        jalan('\n %s *%s anda akan di arakan ke situs web setelah di arahkan ke situs web.\n  %s*%s klik ikon %sMY USER AGENT%s lalu copy semua user agent anda...'%(O,N,O,N,H,N));time.sleep(2);os.system('xdg-open https://www.yayanxd.my.id/server')
+        jalan('\n %s[*.]%s pertama masuk Google chrome atau google biasa.\n %s[*.]%s lalu cari %sMy user agent%s lalu copyy user agent tersebut...'%(O,N,O,N,H,N));time.sleep(2)
         _agen_ = raw_input(' [%s?%s] masukan user agent hp anda :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
         jalan('\n %s[%s✓%s] berhasil menggunakan user agent hp anda...'%(N,H,N))

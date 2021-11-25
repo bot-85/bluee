@@ -91,7 +91,7 @@ def tod():
 logo = ''' \033[0;91m   ___          __  __   ___    ____
  \033[0;91m  / _ )  ___   /  |/  / / _ )  / __/ © \x1b[1;92m|| BY : Bintang-XD
  \033[0;97m / _  / /___/ / /|_/ / / _  / / _/     \x1b[1;93m|| FB : Bintang Tzy
- \033[0;94m/___ /       /_/  /_/ /___ / /_/  \x1b[1;92mv6.5 \033[0m|| YT : BINTANG XD'''
+ \033[0;94m/___ /       /_/  /_/ /___ / /_/  \x1b[1;92mv6.8 \033[0m|| YT : BINTANG XD'''
 lo_ngentod = '1714009362122228'
 # crack selesai
 def hasil(ok,cp):
@@ -144,7 +144,7 @@ def moch_yayan():
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [\033[0;92m•\033[0m] USER NAME   : %s'%(nama);time.sleep(0.03)
     print ' [\033[0;94m•\033[0m] IP phone    : %s'%(IP)
-    print(" [•] Status      : Bagus udah%sPremium %s"%(H,N))
+    print(" [•] Status      : %sPremium %s"%(H,N))
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s01%s] DUMP ID DARI TEMAN'%(U,P,);time.sleep(0.03)
     print ' [%s02%s] DUMP ID DARI PUBLIK'%(U,P);time.sleep(0.03)

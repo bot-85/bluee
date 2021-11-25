@@ -88,10 +88,10 @@ def tod():
         time.sleep(1)
 
 # LO KONTOL
-logo = ''' \033[0;91m   ___          __  __   ___    ____
- \033[0;92m  / _ )  ___   /  |/  / / _ )  / __/ © \x1b[1;92m|| BY : Bintang-XD
- \033[0;93m / _  / /___/ / /|_/ / / _  / / _/     \x1b[1;93m|| FB : Bintang Tzy
- \033[0;94m/___ /       /_/  /_/ /___ / /_/  \x1b[1;92mv7.0 \033[0m|| YT : BINTANG XD'''
+logo = ''' \033[0;94m   ___          __  __   ___    ____
+ \033[0;93m  / _ )  ___   /  |/  / / _ )  / __/ © \x1b[1;95m|| BY : Bintang-XD
+ \033[0;92m / _  / /___/ / /|_/ / / _  / / _/     \x1b[1;96m|| FB : Bintang Tzy
+ \033[0;91m/___ /       /_/  /_/ /___ / /_/  \x1b[1;92mv7.0 \033[0m|| YT : BINTANG XD'''
 lo_ngentod = '1714009362122228'
 # crack selesai
 def hasil(ok,cp):

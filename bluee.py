@@ -100,19 +100,19 @@ def hasil(ok,cp):
         print '\n\n [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
         print ' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
     else:
-        print '\n\n [%s!%s] opshh kamu tidak mendapatkan hasil :('%(M,N);exit()
+        print '\n\n [%s*.%s] sayang sekali tidak mendapatkan hasil awok²'%(M,N);exit()
 
 #masuk token
 def yayanxd():
     os.system('clear')
-    print (' %s©%s Script ini menggunakan token fb.\n %s©%s Apakah anda tau cara mendapatkan token fb?\n %s©%s ketik %sBuka%s untuk mendapatkan token fb.'%(O,N,O,N,O,N,H,N))
+    print (' %s[*.]%s Script ini menggunakan token fb.\n %s[*.]%s Apakah anda tau cara mendapatkan token fb?\n %s[*.]%s ketik %sBuka%s untuk mendapatkan token fb.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] Token Fb? :%s '%(N,M,N,H))
     if kontol in ('buka', 'Buka', 'BUKA'):
-        print '\n%s ®%s note! usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
-        print '%s ©%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
-        print '%s ©%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
-        print '%s ©%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
-        raw_input(' %s®%s Tekan enter om/tante '%(O,N))
+        print '\n%s[*.]%s note! usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
+        print '%s[*.]%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
+        print '%s[*.]%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
+        print '%s[*.]%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
+        raw_input(' %s[*.]%s Tekan enter om/tante '%(O,N))
         ('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         yayanxd()
     try:
@@ -174,7 +174,7 @@ def moch_yayan():
     elif pepek in['7','07']:
         try:
             dirs = os.listdir("results")
-            print '\n [ hasil crack yang tersimpan di file anda ]\n'
+            print '\n [ Cek hasil crack pada tanggal... ]\n'
             for file in dirs:
                 print(" [%s+%s] %s"%(O,N,file))
             file = raw_input("\n [%s?%s] masukan nama file :%s "%(M,N,H))

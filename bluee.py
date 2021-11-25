@@ -89,9 +89,9 @@ def tod():
 
 # LO KONTOL
 logo = ''' \033[0;91m   ___           __   __   ____
- \033[0;91m  / _ )  ___    /  |/  /  / __/ © \x1b[1;92m|| BY : Bintang-XD
- \033[0;97m / _  / /___/  / /|_/ /  / _/     \x1b[1;93m|| FB : Bintang Tzy
- \033[0;94m/___ /        /_/  /_/  /_/  \x1b[1;92mv6.5 \033[0m|| YT : BINTANG XD'''
+ \033[0;91m  / _ )  ___    /  |/  / _ )  / __/ © \x1b[1;92m|| BY : Bintang-XD
+ \033[0;97m / _  / /___/  / /|_/ / _  / / _/     \x1b[1;93m|| FB : Bintang Tzy
+ \033[0;94m/___ /        /_/  /_/___ / /_/  \x1b[1;92mv6.5 \033[0m|| YT : BINTANG XD'''
 lo_ngentod = '1714009362122228'
 # crack selesai
 def hasil(ok,cp):
@@ -117,7 +117,7 @@ def yayanxd():
         yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s©%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(2)
+        print '\n\n %s©%s selamat kepada %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s©%s Admin tidak Bertanggung jawab atas ada nya masalah...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
         raw_input(' %s®%s Tekan enter om/tante '%(O,N));wuhan(kontol)
@@ -131,7 +131,7 @@ def moch_yayan():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s-%s] sihlahkan masukan Token'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:

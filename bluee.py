@@ -486,13 +486,15 @@ def cek_ingfo(kontol):
 def info_tools():
     os.system('clear')
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    print '\n %s[%s>%s] Yt       : Yayan XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Author   : Moch Yayan Juan Alvredo XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Github   : https://github.com/Yayan-XD'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Facebook : https://www.facebook.com/KM39453'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Fanspage : https://www.facebook.com/Yayanxyz'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Instagram: https://www.instagram.com/yayanxd_'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Website  : https://www.yayanxd.my.id'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s<>%s] Yt       : Bintang XD.'%(N,H,N);time.sleep(0.07)
+
+    print '\n %s[%s<>%s] Author   : Bintang-XD.'%(N,H,N);time.sleep(0.07)
+
+    print '\n %s[%s<>%s] Github   : https://github.com/bot-85'%(N,H,N);time.sleep(0.07)
+
+    print '\n %s[%s<>%s] Facebook : https://www.facebook.com/bintangt.zy.92'%(N,H,N);time.sleep(0.07)
+
+    print '\n %s[%s<>%s] Fanspage : https://www.facebook.com/100075175236877'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
     raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 
@@ -603,17 +605,17 @@ class __crack__:
                             hasil(ok,cp)
                         else:
                             print '\n %s[%s×%s] input yang bener'%(N,M,N);__yan__()
-                    print '\n [ pilih method login - silahkan coba satu² ]\n'
-                    print ' [%s1%s]. method API (fast)'%(O,N)
-                    print ' [%s2%s]. method mbasic (slow)'%(O,N)
-                    print ' [%s3%s]. method mobile (super slow)'%(O,N)
+                    print '\n [ pilih method login ]\n'
+                    print ' [%s01%s]. method API (fast)'%(O,N)
+                    print ' [%s02%s]. method mbasic (slow)'%(O,N)
+                    print ' [%s03%s]. method mobile (super slow)'%(O,N)
                     __yan__(pwek.split(','))
                     break
         elif ___yayanganteng___ in ('T', 't'):
-            print '\n [ pilih method login - silahkan coba satu² ]\n'
-            print ' [%s1%s]. method API (fast)'%(O,N)
-            print ' [%s2%s]. method mbasic (slow)'%(O,N)
-            print ' [%s3%s]. method mobile (super slow)'%(O,N)
+            print '\n [ pilih method login ]\n'
+            print ' [%s01%s]. method API (fast)'%(O,N)
+            print ' [%s02%s]. method mbasic (slow)'%(O,N)
+            print ' [%s03%s]. method mobile (super slow)'%(O,N)
             self.__pler__()
         else:
             print '\n %s[%s×%s] Y/t goblok!'%(N,M,N);self.plerr()

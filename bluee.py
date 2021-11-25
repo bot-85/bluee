@@ -1,11 +1,11 @@
 #!/usr/bin/python2
 # coding=utf-8
-# code by Yayan XD
+# code by Bintang XD
 # my facebook ( https://www.facebook.com/KM39453 )
 
 #      (C) Copyright 407 Authentic Exploit
 #      Rebuild Copyright Can't make u real programmer:)
-#      Coded By Yayan XD.
+#      Coded By Bintang XD.
 
 import os
 try:
@@ -485,7 +485,7 @@ def cek_ingfo(kontol):
 # cek ingfo sc
 def info_tools():
     os.system('clear')
-    print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
+    print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;92m-\x1b[0m';time.sleep(0.07)
     print '\n %s[%s<>%s] Yt       : Bintang XD.'%(N,H,N);time.sleep(0.07)
 
     print '\n %s[%s<>%s] Author   : Bintang-XD.'%(N,H,N);time.sleep(0.07)
@@ -495,7 +495,7 @@ def info_tools():
     print '\n %s[%s<>%s] Facebook : https://www.facebook.com/bintangt.zy.92'%(N,H,N);time.sleep(0.07)
 
     print '\n %s[%s<>%s] Fanspage : https://www.facebook.com/100075175236877'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
+    print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;92m-\x1b[0m';time.sleep(0.07)
     raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 
 ### ganti user agent

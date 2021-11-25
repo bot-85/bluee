@@ -117,10 +117,10 @@ def yayanxd():
         yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s©%s selamat kepada %s%s%s'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s©%s Admin tidak Bertanggung jawab atas ada nya masalah...'%(O,N);time.sleep(2)
+        print '\n\n %s[*.]%s selamat kepada %s%s%s'%(O,N,K,nama,N);time.sleep(2)
+        print ' %s[*.]%s Admin tidak Bertanggung jawab atas ada nya masalah...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
-        raw_input(' %s®%s Tekan enter om/tante '%(O,N));wuhan(kontol)
+        raw_input(' %s[*.]%s Tekan enter om/tante '%(O,N));wuhan(kontol)
         moch_yayan()
     except KeyError:
         print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);yayanxd()

@@ -88,12 +88,10 @@ def tod():
         time.sleep(1)
 
 # LO KONTOL
-logo = ''' \033[0;96m  _________              _____ _____________________
-\x1b[1;95m  |_  _  __\            /     \\______   \_   _____/
-\x1b[1;94m  |   _|       ______  /  \ /  \|    |  _/|    __)  
-\x1b[1;93m  | _- __\__  /_____/ /    Y    \    |   \|     \   
-\x1b[1;92m  \___  /             \____|__  /______  /\___  /   
-\x1b[1;91m      \/                   \/       \/     \/      """%(N))
+logo = ''' \033[0;96m __  __        __  ______  ____
+ \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ® \033[0m|| Created By YayanXD
+ \033[0;96m  \  / /___/ / /|_/ / _  / _/     \033[0m|| Github.com/Yayan-XD
+ \033[0;96m  /_/       /_/  /_/____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/KM39453'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -146,13 +144,8 @@ def moch_yayan():
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
-    print(" %s[*] Author     : BINTANG-XD"%(N))
-		print(" [*] Github     : https://github.com/bot-85")
-		print(" [*] ---------------------------------------------")
-		print(" [*] Bergabung  : %s"%(tgl))
-		print(" [*] Status     : %sPremium Sampai dajjal keluar%s"%(H,N))
-		print(" [*] ---------------------------------------------")
-		print(" [*] IP         : %s"%()
+    print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
+    print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s1%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s2%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
@@ -263,7 +256,9 @@ def teman(kontol):
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 '''
-																																																																																														'''
+																																																				csy = 'Cindy sayang Yayan'
+																																																				ysc = 'Yayan sayang Cindy'
+																																																			'''
 # dump id dari teman publik hehe
 def publik(kontol):
     try:
